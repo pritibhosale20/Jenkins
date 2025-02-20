@@ -26,10 +26,10 @@ sudo systemctl start jenkins
 # Check the status of Jenkins to ensure it's running
 sudo systemctl status jenkins
 
-##  Make the Script Executable
-chmod +x install_jenkins_Alinux.sh
+## Make the Script Executable
+# chmod +x install_jenkins_Alinux.sh
 # Run the Installation Script
-./install_jenkins_Alinux.sh
-#after installation login to jenkins password get using cmd-
-cat /var/lib/jenkins/secrets/initialAdminPassword
+# ./install_jenkins_Alinux.sh
+# after installation login to jenkins password get using cmd-
+# cat /var/lib/jenkins/secrets/initialAdminPassword
 
