@@ -30,3 +30,6 @@ sudo systemctl status jenkins
 chmod +x install_jenkins_Alinux.sh
 # Run the Installation Script
 ./install_jenkins_Alinux.sh
+#after installation login to jenkins password get using cmd-
+cat /var/lib/jenkins/secrets/initialAdminPassword
+
