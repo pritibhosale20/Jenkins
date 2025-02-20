@@ -32,4 +32,6 @@ sudo systemctl status jenkins
 # ./install_jenkins_Alinux.sh
 # after installation login to jenkins password get using cmd-
 # cat /var/lib/jenkins/secrets/initialAdminPassword
+# resize temp file system (if require)
+#sudo mount -o remount,size=1G /tmp
 
