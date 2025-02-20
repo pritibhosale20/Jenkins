@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Update all installed packages to the latest version
 sudo yum update -y
 
@@ -26,3 +25,8 @@ sudo systemctl start jenkins
 
 # Check the status of Jenkins to ensure it's running
 sudo systemctl status jenkins
+
+##  Make the Script Executable
+chmod +x install_jenkins_Alinux.sh
+# Run the Installation Script
+./install_jenkins_Alinux.sh
