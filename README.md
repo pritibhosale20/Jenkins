@@ -17,7 +17,7 @@ chmod +x install_jenkins_Alinux.sh
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
-**Step 5: Resize /tmp Filesystem (If Jenkins requires more space for temporary files, resize /tmp:)**
+**Step 5: Resize /tmp Filesystem (If Jenkins requires more space for temporary files, resize /tmp)**
 ```
 sudo mount -o remount,size=2G /tmp
 ```
