@@ -6,6 +6,7 @@ Download the `install_jenkins_Alinux.sh` file to your server:
 wget https://raw.githubusercontent.com/<your-github-username>/<your-github-repo>/<branch>/install_jenkins_Alinux.sh
 
 Step 2: Make the Script Executable
+```bash
 chmod +x install_jenkins_Alinux.sh
 
 #Step 3: Run the Installation Script
