@@ -1,15 +1,15 @@
 # Jenkins Installation on Amazon Linux 
 
-Step 1: Download the Installation Script  
+# Step 1: Download the Installation Script  
 Download the `install_jenkins_Alinux.sh` file to your server:  
-```bash
+
 wget https://raw.githubusercontent.com/<your-github-username>/<your-github-repo>/<branch>/install_jenkins_Alinux.sh
 
-Step 2: Make the Script Executable
+# Step 2: Make the Script Executable
 ```bash
 chmod +x install_jenkins_Alinux.sh
 
-#Step 3: Run the Installation Script
+**# Step 3: Run the Installation Script**
 ./install_jenkins_Alinux.sh
 
 #Step 4: Retrieve the Jenkins Initial Admin Password
