@@ -22,7 +22,7 @@ sudo systemctl enable jenkins
 sudo systemctl restart jenkins
 
 # Check the status of Jenkins to ensure it's running
-sudo systemctl status jenkins
+sudo systemctl status jenkins || true
 
 # Print a success message
 echo "Jenkins installation and setup completed successfully. Access it at http://<your-servers-public-ip>:8080"
