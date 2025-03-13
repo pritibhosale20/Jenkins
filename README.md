@@ -7,22 +7,22 @@ wget https://raw.githubusercontent.com/pritibhosale20/Jenkins/main/install_jenki
 ```
 **Step 2: Make the Script Executable**
 ```
-chmod +x install_jenkins_Alinux.sh
+sudo chmod +x install_jenkins_Alinux.sh
 ```
-**Step 3: Run the Installation Script**
-```
-./install_jenkins_Alinux.sh
-```
-**Convert the Script to Unix Format (Fix Line Endings)**
+**step 3: Convert the Script to Unix Format (Fix Line Endings)**
 ```
 sudo yum install -y dos2unix
 dos2unix install_jenkins_Alinux.sh
 ```
-**Step 4: Retrieve the Jenkins Initial Admin Password**
+**Step 4: Run the Installation Script**
+```
+./install_jenkins_Alinux.sh
+```
+**Step 5: Retrieve the Jenkins Initial Admin Password**
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
-**Step 5: Resize /tmp Filesystem (If Jenkins requires more space for temporary files, resize /tmp)**
+**Step 6: Resize /tmp Filesystem (If Jenkins requires more space for temporary files, resize /tmp)**
 ```
 sudo mount -o remount,size=2G /tmp
 ```
@@ -38,7 +38,7 @@ tmpfs /tmp defaults,size=2G,noatime,nosuid 0 0
 ```
 sudo mount -o remount /tmp
 ```
-**Step 6: Restart Jenkins**
+**Step 7: Restart Jenkins**
 ```
 sudo service jenkins restart
 
