@@ -13,6 +13,11 @@ chmod +x install_jenkins_Alinux.sh
 ```
 ./install_jenkins_Alinux.sh
 ```
+**Convert the Script to Unix Format (Fix Line Endings)**
+```
+sudo yum install -y dos2unix
+dos2unix install_jenkins_Alinux.sh
+```
 **Step 4: Retrieve the Jenkins Initial Admin Password**
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
