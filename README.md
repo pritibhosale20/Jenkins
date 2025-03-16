@@ -38,7 +38,7 @@ tmpfs /tmp defaults,size=2G,noatime,nosuid 0 0
 ```
 sudo mount -o remount /tmp
 ```
-**Step 7: Restart Jenkins**
+**Restart Jenkins**
 ```
 sudo service jenkins restart
 
