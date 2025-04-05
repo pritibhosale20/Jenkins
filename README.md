@@ -32,7 +32,7 @@ sudo nano /etc/fstab
 ```
 **Add the following line:**
 ```
-tmpfs /tmp defaults,size=2G,noatime,nosuid 0 0
+tmpfs /tmp tmpfs defaults,size=2G,noatime,nosuid 0 0
 ```
 **Then remount /tmp**
 ```
